@@ -1,0 +1,11 @@
+COMANDOS =
+
+scrapy shell = Inicializa o shell
+
+fetch(url) = acessa ao site
+
+scrapy crawl mercadolivre -o data.jsonl = Salva com o "-o" o data.jsonl salva no mesmo dir, ou selecione um dir
+
+products = response.css('div.poly-card__content')
+
+products.css('span.poly-reviews__total::text').get()
